@@ -44,16 +44,17 @@ main{
     background-color: black;
     height: 100px;
     float: left;
-    width: calc( 100% / 3 - 20px);
+    width: calc( 100% / 3 );
 
 }
 
 .due{
     box-sizing: content-box;
-    margin-left: 20px;
+    
     margin-left: white;
-    margin-right: 20px;
+    
     margin-right: white;
+    padding: 0px 10px;
 }
 
 img{
