@@ -3,3 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+header{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+
+h1{
+    color: #E53170;
+    padding-top: 60px;
+}
