@@ -36,25 +36,20 @@ main{
 
 }
 
-.spazio-colonne{
-  
-}
 
 .colonna{
     background-color: black;
     height: 100px;
     float: left;
-    width: calc( 100% / 3 );
+    width: calc( 100% / 3 - 40px);
 
 }
 
 .due{
     box-sizing: content-box;
-    
+    margin: 0px 20px;
     margin-left: white;
-    
     margin-right: white;
-    padding: 0px 10px;
 }
 
 img{
