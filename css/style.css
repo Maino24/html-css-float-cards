@@ -14,13 +14,15 @@ header{
     width: 80%;
     margin: auto;
     text-align: center;
-
 }
 
 h1{
     color: #E53170;
     padding-top: 50px;
+    font-family: 'Fredoka One', cursive;
+
 }
+
 
 #sottotitolo{
     padding-top: 60px;
@@ -59,3 +61,4 @@ img{
 .mail{
     color: #0996E3;
 }
+
