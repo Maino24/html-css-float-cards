@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
 
 header{
     width: 80%;
@@ -19,4 +25,58 @@ h1{
 
 #sottotitolo{
     padding-top: 60px;
+    background-color: white;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.spazio-colonne{
+  
+}
+
+.colonna{
+    background-color: black;
+    height: 100px;
+    float: left;
+    width: calc( 100% / 3 - 20px);
+
+}
+
+#due{
+    box-sizing: content-box;
+    margin-left: 20px;
+    margin-left: white;
+    margin-right: 20px;
+    margin-right: white;
+}
+
+img{
+    float: left;
+    height: 100px;
+}
+
+h3{
+    float: left;
+    padding: 5px 20px;
+    color: white;
+    
+}
+
+.professione{
+    float: left;
+    padding: 5px 20px;
+    color: white;
+    
+}
+
+.mail {
+    float: left;
+    padding: 5px 20px;
+    color: #0EABED;
 }
