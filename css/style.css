@@ -10,7 +10,6 @@
     display: table;
 }
 
-
 header{
     width: 80%;
     margin: auto;
@@ -31,52 +30,33 @@ h1{
 main{
     width: 80%;
     margin: auto;
-    text-align: center;
     padding-top: 30px;
 
 }
 
-
 .colonna{
-    background-color: black;
-    height: 100px;
     float: left;
-    width: calc( 100% / 3 - 40px);
-
+    width: calc( 100% / 3 );
 }
 
-.due{
-    box-sizing: content-box;
-    margin: 0px 20px;
-    margin-left: white;
-    margin-right: white;
+.card  {
+    background-color: black;
+    margin: 10px;
+    height: 100px;
+}
+
+.testo{
+    float: right;
+    color: white;
+    width: calc(100% - 100px);
+    padding: 20px;
 }
 
 img{
     float: left;
-    height: 100px;
+    width: 100px;
 }
 
-h3{
-    float: left;
-    padding: 5px 20px;
-    color: white;
-    
-}
-
-.professione{
-    float: left;
-    padding: 5px 20px;
-    color: white;
-    
-}
-
-.mail {
-    float: left;
-    padding: 5px 20px;
-    color: #0EABED;
-}
-
-.sotto{
-    margin-top: 20px;
+.mail{
+    color: #0996E3;
 }
